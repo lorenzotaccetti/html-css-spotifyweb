@@ -4,6 +4,55 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+.app-wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.col{
+    float: left;
+}
+
+/* FIXED DIV */
+.fixed-div{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: calc(100% - 200px);
+    height: 100px;
+    background-color: rgba(9, 11, 18, 0.6);
+}
+
+/* MAIN */
+main{
+    width: 100%;
+    height: calc(100% - 100px);
+    overflow: hidden;
+}
+
+/* Main Nav*/
+.main-nav{
+    width: 200px;
+    height: 100%;
+    background-color: #000000;
+}
+
+.main-content{
+    width: calc(100% - 200px);
+    height: 100%;
+    background-color: #141922;
+    overflow-y: auto;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: #282828;
 }
