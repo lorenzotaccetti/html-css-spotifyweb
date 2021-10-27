@@ -59,6 +59,10 @@ ul{
     text-transform: uppercase;
 }
 
+.fixed-div .button-fix:hover{
+    padding: 12px 40px;
+}
+
 /* MAIN */
 main{
     width: 100%;
@@ -139,8 +143,12 @@ main{
     align-items: center;
 }
 
+.main-nav .action-playlist:hover span{
+    color: white;
+}
+
 .main-nav .playlist .action-playlist i{
-   background-color: #a3a3a3;
+    background-color: #a3a3a3;
     color: #000000;
     font-size: 23px;
     border: 1px solid #a3a3a3;
@@ -150,7 +158,7 @@ main{
     text-align: center;
 }
 
-.main-nav .playlist .action-playlist i:hover{
+.main-nav .action-playlist:hover i{
     background-color: white;
 }
 
@@ -403,6 +411,7 @@ footer .pausa .barra-piccola{
     height: 5px;
     background-color: #c1c1c1;
     border-radius: 20px;
+    position: relative;
 }
 
 footer .pausa .barra span{
@@ -446,6 +455,7 @@ footer .volume .barra-piccola{
     height: 5px;
     background-color: #c1c1c1;
     border-radius: 20px;
+    position: relative;
 }
 
 /* HOVER */
@@ -476,5 +486,25 @@ footer .volume .barra-piccola{
 }
 
 .main-content .single-element:hover .fa-play-circle{
+    display: inline-block;
+}
+
+footer .barra-grande:hover .barra-piccola{
+    background-color: #adff2e;
+}
+
+footer .barra-grande .pallino-bianco{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+footer .barra-grande:hover .pallino-bianco{
     display: inline-block;
 }
