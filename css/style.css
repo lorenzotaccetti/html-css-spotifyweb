@@ -97,7 +97,6 @@ main{
     color: #797979;
     font-size: 14px;
     font-weight: 600;
-    width: 200px;
 }
 
 .main-nav .nav-actions img{
@@ -196,6 +195,111 @@ main{
     height: 100%;
     background-color: #141922;
     overflow-y: auto;
+    padding-top: 120px;
+}
+
+/* Nav Main Content */
+.main-content .nav-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .nav-main-content span{
+    color: #6b6e73;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
+}
+
+/* .main-content .nav-main-content .underline::after {
+	display: block;
+	content: '';
+	width: 35px;
+	height: 1px;
+	background-color: #adff2e;
+	margin: 4px 0 0;
+} */
+
+/* Recently Played */
+.main-content .recently-played{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.main-content h2{
+    color: white;
+    font-weight: 700;
+}
+
+.main-content .recently-played-music{
+    display: flex;
+}
+
+.main-content .recently-played-music .single-element{
+    width: calc( (100% / 6 ) - 15px);
+    margin: 30px 15px 0 0;
+}
+
+.main-content .single-element h4{
+    color: white;
+    font-weight: 700;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.main-content .recently-played-music p{
+    color: #717479;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* John Doe */
+.john-doe{
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.john-doe .create-john-doe{
+    display: flex;
+}
+
+.john-doe .create-john-doe .single-element{
+    margin: 30px 15px 0 0;
+    width: calc( ( 100% / 6 ) - 15px);
+}
+
+.john-doe p{
+    color: #717479;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+/* Artisti più popolari */
+.popular-artist{
+    padding: 40px 0 30px 20px;
+}
+.popular-artist .artist{
+    display: flex;
+}
+
+.popular-artist .artist .single-element{
+    margin: 30px 15px 0 0;
+    width: calc((100% / 6) - 15px);
+}
+
+.popular-artist p{
+    color: #717479;
+    font-size: 13px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.popular-artist .artist img{
+    border-radius: 50%;
 }
 
 /* FOOTER */
