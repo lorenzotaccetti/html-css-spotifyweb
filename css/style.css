@@ -238,7 +238,7 @@ main{
 }
 
 .main-content .recently-played-music .single-element{
-    width: calc( (100% / 6 ) - 15px);
+    width: calc( (100% / 6) - 15px );
     margin: 30px 15px 0 0;
 }
 
@@ -268,7 +268,7 @@ main{
 
 .john-doe .create-john-doe .single-element{
     margin: 30px 15px 0 0;
-    width: calc( ( 100% / 6 ) - 15px);
+    width: calc(( 100% / 6) - 15px) ;
 }
 
 .john-doe p{
@@ -308,4 +308,131 @@ footer{
     height: 100px;
     overflow: hidden;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Brano */
+footer .brano{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: #797979;
+    font-weight: 700;
+    width: 250px;
+}
+
+footer .brano img{
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+footer .brano .titolo-canzone{
+    color: white;
+    font-size: 13px;
+}
+
+footer .brano .autore-canzone{
+    font-size: 11px;
+}
+
+footer .brano .icone{
+    padding-left: 25px;
+}
+
+footer .brano .icone i{
+    padding: 0 5px;
+}
+
+/* Pausa */
+footer .pausa{
+    /* flex-grow: 1; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+/* Buttons */
+footer .pausa .buttons{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer .pausa .buttons i{
+    padding: 0 10px;
+}
+
+footer .pausa .buttons .fa-play-circle{
+    font-size: 30px;
+    padding: 0 15px;
+}
+
+/* Barra */
+footer .pausa .barra{
+    display: flex;
+    align-items: center;
+}
+
+footer .pausa .barra-grande{
+    width: 550px;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 20px;
+}
+
+footer .pausa .barra-piccola{
+    width: 120px;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 20px;
+}
+
+footer .pausa .barra span{
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 10px;
+}
+
+/* Volume */
+footer .volume{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+}
+
+/* Icone */
+footer .volume .buttons{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+footer .volume .buttons i{
+    padding: 0 10px;
+}
+
+/* Barra */
+footer .volume .barra-grande{
+    width: 125px;
+    height: 5px;
+    background-color: #5a5a5a;
+    border-radius: 20px;
+}
+
+footer .volume .barra-piccola{
+    width: 40px;
+    height: 5px;
+    background-color: #c1c1c1;
+    border-radius: 20px;
 }
