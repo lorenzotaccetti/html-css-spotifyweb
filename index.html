@@ -25,7 +25,7 @@
 
             <!-- Bottone upgrade -->
             <div class="bottone-upgrade">
-                <a href="#">Effettua l'upgrade</a>
+                <a class="button-fix scale" href="#">Effettua l'upgrade</a>
             </div>
 
         </div>
@@ -46,17 +46,17 @@
 
                     <!-- Lista non ordinata actions -->
                     <ul>
-                        <li class="home">
+                        <li>
                             <img src="img/home.svg" alt="home icon">
-                            Home
+                            <span class="white">Home</span>
                         </li>
                         <li>
                             <img src="img/search.svg" alt="search icon">
-                            Cerca
+                            <span class="white">Cerca</span>
                         </li>
                         <li>
                             <img src="img/libreria.svg" alt="bookshelf icon">
-                            La tua libreria
+                            <span class="white">La tua libreria</span>
                         </li>
                     </ul>
 
@@ -71,19 +71,19 @@
                     <!-- Action playlist -->
                     <div class="action-playlist">
                         <i class="fas fa-plus"></i>
-                        <span class="text-playlist">Crea Playlist</span>
+                        <span class="text-playlist white">Crea Playlist</span>
                     </div>
 
                     <!-- Lista non ordinata playlist -->
                     <div class="ul-playlist">
                         <ul>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
-                            <li>Nome Playlist</li>
+                            <li><span class="white">Nome playlist</span></li>
+                            <li><span class="white">Nome playlist</span></li>
+                            <li><span class="white">Nome playlist</span></li>
+                            <li><span class="white">Nome playlist</span></li>
+                            <li><span class="white">Nome playlist</span></li>
+                            <li><span class="white">Nome playlist</span></li>
+                            <li><span class="white">Nome playlist</span></li>
                         </ul>
                     </div>
 
@@ -93,7 +93,7 @@
 
                     <div class="download-app">
                         <img src="img/download.svg" alt="">
-                        Installa app
+                        <span class="white">Installa app</span>
                     </div>
 
                     <div class="profile">
@@ -108,12 +108,12 @@
 
                 <!-- Nav Main Content -->
                 <div class="nav-main-content">
-                    <span class="underline">In Evidenza</span>
-                    <span>Podcast</span>
-                    <span>Classifiche</span>
-                    <span>Generi e Mood</span>
-                    <span>Nuove Uscite</span>
-                    <span>Scopri</span> 
+                    <span class="span-main white">In Evidenza</span>
+                    <span class="span-main white">Podcast</span>
+                    <span class="span-main white">Classifiche</span>
+                    <span class="span-main white">Generi e Mood</span>
+                    <span class="span-main white">Nuove Uscite</span>
+                    <span class="span-main white">Scopri</span> 
                 </div>
 
                 <!-- Recently Played -->
@@ -122,32 +122,50 @@
 
                     <div class="recently-played-music">
                         <div class="single-element">
-                            <img src="img/metal_lifting.jpg" alt="Heavy metal music">
+                            <div class="img-relative overlay">
+                                <img src="img/metal_lifting.jpg" alt="Heavy metal music">
+                                <i class="far fa-play-circle"></i>
+                            </div>
                             <h4>Heavy Metal</h4>
                             <p>Subtitle</p>
                         </div>
                         <div class="single-element">
-                            <img src="img/stranger.jpeg" alt="Stranger Things Soundtrack">
+                            <div class="img-relative overlay">
+                                <img src="img/stranger.jpeg" alt="Stranger Things Soundtrack">
+                                <i class="far fa-play-circle"></i>
+                            </div>
                             <h4>Stranger Thing, Vol. 1 (a Netflix Original Series Soundtrack)</h4>
                             <p>Kyle Dixon & Michael Stein</p>
                         </div>
                         <div class="single-element">
-                            <img src="img/aquietplace.jpeg" alt="A quiet place Soundtrack">
+                            <div class="img-relative overlay">
+                                <img src="img/aquietplace.jpeg" alt="A quiet place Soundtrack">
+                                <i class="far fa-play-circle"></i>
+                            </div>
                             <h4>A quiet place</h4>
                              <p>Subtitle</p>
                         </div>
                         <div class="single-element">
-                            <img src="img/split.jpeg" alt="Split soundtrack">
+                            <div class="img-relative overlay">
+                                <img src="img/split.jpeg" alt="Split soundtrack">
+                                <i class="far fa-play-circle"></i>
+                            </div>
                             <h4>Split</h4>
                             <p>Subtitle</p>
                         </div>
                         <div class="single-element">
-                            <img src="img/cure.jpeg" alt="Cure music">
+                            <div class="img-relative overlay">
+                                <img src="img/cure.jpeg" alt="Cure music">
+                                <i class="far fa-play-circle"></i>
+                            </div>
                             <h4>A cure for wellness</h4>
                             <p>Subtitle</p>
                         </div>
                         <div class="single-element">
-                            <img src="img/sinister.jpeg" alt="Sinister music">
+                            <div class="img-relative overlay">
+                                <img src="img/sinister.jpeg" alt="Sinister music">
+                                <i class="far fa-play-circle"></i>
+                            </div>
                             <h4>Sinister</h4>
                             <p>Subtitle</p>
                         </div>
@@ -160,11 +178,11 @@
                     <p>Più ascolti, più accurati saranno i suggerimenti</p>
 
                     <div class="create-john-doe">
-                        <div class="single-element">
+                        <div class="single-element overlay">
                             <img src="img/radar.jpeg" alt="Il tuo Release Radar">
                             <h4>Release Radar</h4>  
                         </div>
-                        <div class="single-element">
+                        <div class="single-element overlay">
                             <img src="img/mixdaily.jpeg" alt="Il tuo Daily Mix 1">
                             <h4>Daily Mix 1</h4>
                         </div>
@@ -177,11 +195,11 @@
                     <p>Più ascolti, più accurati saranno i suggerimenti</p>
 
                     <div class="artist">
-                        <div class="single-element">
+                        <div class="single-element overlay">
                             <img src="img/youg.jpeg" alt="Youg">
                             <h4>Lana del Rey</h4>
                         </div>
-                        <div class="single-element">
+                        <div class="single-element overlay">
                             <img src="img/einaudi.jpeg" alt="einaudi">
                             <h4>Ludovico Einaudi</h4>
                         </div>
@@ -198,11 +216,11 @@
                 <img src="img/sinister.jpeg" alt="logo immagine">
                 <div>
                     <p class="titolo-canzone">Sinister</p>
-                    <p class="autore-canzone">Brano Nome</p>
+                    <p class="autore-canzone white underline">Brano Nome</p>
                 </div>
                 <div class="icone">
-                    <i class="far fa-heart"></i>
-                    <i class="far fa-folder"></i>
+                    <i class="far fa-heart white"></i>
+                    <i class="far fa-folder white"></i>
                 </div>
             </div>
 
@@ -213,7 +231,7 @@
                 <div class="buttons">
                     <i class="fas fa-random"></i> 
                     <i class="fas fa-angle-double-left"></i>
-                    <i class="far fa-play-circle"></i>
+                    <i class="far fa-play-circle scale"></i>
                     <i class="fas fa-angle-double-right"></i>
                     <i class="fas fa-redo-alt"></i>
                 </div>

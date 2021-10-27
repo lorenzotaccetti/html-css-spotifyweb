@@ -20,6 +20,11 @@ body{
 
 img{
     width: 100%;
+    position: relative;
+}
+
+.img-relative{
+    position: relative;
 }
 
 ul{
@@ -43,7 +48,7 @@ ul{
     margin-right: 10px;
 }
 
-.fixed-div .bottone-upgrade a{
+.fixed-div .bottone-upgrade .button-fix{
     text-decoration: none;
     color: #f4f4f4;
     border: 1px solid #f4f4f4;
@@ -145,6 +150,10 @@ main{
     text-align: center;
 }
 
+.main-nav .playlist .action-playlist i:hover{
+    background-color: white;
+}
+
 .main-nav .playlist .action-playlist .text-playlist{
     padding-left: 15px;
     font-weight: 600;
@@ -205,12 +214,16 @@ main{
     align-items: center;
 }
 
-.main-content .nav-main-content span{
+.main-content .nav-main-content .span-main{
     color: #6b6e73;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
     padding: 0 10px;
+}
+
+.main-content .nav-main-content .span-main:hover{
+    color: white;
 }
 
 /* .main-content .nav-main-content .underline::after {
@@ -433,4 +446,35 @@ footer .volume .barra-piccola{
     height: 5px;
     background-color: #c1c1c1;
     border-radius: 20px;
+}
+
+/* HOVER */
+.white:hover{
+    color: white;
+}
+
+.underline:hover{
+    text-decoration: underline;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
+
+.main-content .single-element:hover .overlay{
+    filter: sepia(0.5) grayscale(0.2);
+}
+
+.main-content .fa-play-circle{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.main-content .single-element:hover .fa-play-circle{
+    display: inline-block;
 }
