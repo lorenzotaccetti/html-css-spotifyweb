@@ -348,12 +348,12 @@ footer .brano .icone i{
 
 /* Pausa */
 footer .pausa{
-    /* flex-grow: 1; */
-    height: 100%;
+    width: calc(100% - 500px);
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
+    height: 100%;
 }
 
 /* Buttons */
@@ -415,7 +415,7 @@ footer .volume .buttons{
     align-items: center;
     font-size: 15px;
     color: white;
-    padding-bottom: 10px;
+    padding-right: 5px;
 }
 
 footer .volume .buttons i{
