@@ -320,7 +320,6 @@ footer .brano{
     padding: 0 20px;
     color: #797979;
     font-weight: 700;
-    width: 250px;
 }
 
 footer .brano img{
@@ -348,7 +347,6 @@ footer .brano .icone i{
 
 /* Pausa */
 footer .pausa{
-    width: calc(100% - 500px);
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -405,8 +403,8 @@ footer .pausa .barra span{
 footer .volume{
     display: flex;
     align-items: center;
-    width: 250px;
     height: 100%;
+    padding-right: 20px;
 }
 
 /* Icone */
