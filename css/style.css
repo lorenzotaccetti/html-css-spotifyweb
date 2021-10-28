@@ -317,6 +317,15 @@ main{
     padding: 0 10px;
 }
 
+.main-content .nav-main-content .evidenza::after {
+	display: block;
+	content: '';
+	width: 30px;
+	height: 2px;
+    margin-left: 35px;
+	background-color: #adff2e;
+}
+
 .main-content .nav-main-content .span-main:hover{
     color: white;
 }
