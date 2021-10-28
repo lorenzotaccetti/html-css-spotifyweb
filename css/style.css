@@ -123,11 +123,6 @@ main{
     }
 }
 
-/* Common nav */
-/* .main-nav .nav-actions, .main-nav .playlist, .main-nav .user{
-    margin: 0 20px;
-} */
-
 /* Nav Actions */
 .main-nav .nav-actions{
     padding-bottom: 25px;
@@ -235,7 +230,7 @@ main{
 
 /* User */
 .main-nav .user{
-    padding-left: 20px;
+    padding: 0 20px;
 }
 .main-nav .user img{
     width: 24px;
