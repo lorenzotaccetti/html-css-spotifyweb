@@ -321,15 +321,6 @@ main{
     color: white;
 }
 
-/* .main-content .nav-main-content .underline::after {
-	display: block;
-	content: '';
-	width: 35px;
-	height: 1px;
-	background-color: #adff2e;
-	margin: 4px 0 0;
-} */
-
 @media screen and (max-width:1099px){
     .main-content .nav-main-content{
         flex-wrap: wrap;
@@ -393,6 +384,15 @@ main{
     }
 }
 
+@media screen and (max-width:899px) {
+    .main-content .recently-played-music{
+        flex-wrap: wrap;
+    }
+    .main-content .recently-played-music .single-element{
+        width: calc( (100% / 3) - 15px )
+    }
+}
+
 @media screen and (max-width:699px) {
     .main-content .recently-played-music{
         flex-wrap: wrap;
@@ -430,6 +430,15 @@ main{
     }
     .john-doe .create-john-doe .single-element{
         width: calc( (100% / 4) - 15px )
+    }
+}
+
+@media screen and (max-width:1099px) {
+    .john-doe .create-john-doe{
+        flex-wrap: wrap;
+    }
+    .john-doe .create-john-doe .single-element{
+        width: calc( (100% / 3) - 15px )
     }
 }
 
@@ -473,6 +482,15 @@ main{
     }
     .popular-artist .artist .single-element{
         width: calc( (100% / 4) - 15px )
+    }
+}
+
+@media screen and (max-width:1099px) {
+    .popular-artist .artist{
+        flex-wrap: wrap;
+    }
+    .popular-artist .artist .single-element{
+        width: calc( (100% / 3) - 15px )
     }
 }
 
