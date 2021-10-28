@@ -124,9 +124,9 @@ main{
 }
 
 /* Common nav */
-.main-nav .nav-actions, .main-nav .playlist, .main-nav .user{
+/* .main-nav .nav-actions, .main-nav .playlist, .main-nav .user{
     margin: 0 20px;
-}
+} */
 
 /* Nav Actions */
 .main-nav .nav-actions{
@@ -138,6 +138,11 @@ main{
     color: #797979;
     font-size: 14px;
     font-weight: 600;
+    padding-left: 20px;
+}
+
+.main-nav .nav-actions .verde{
+    border-left: 3px solid #adff2e;
 }
 
 .main-nav .nav-actions img{
@@ -150,6 +155,12 @@ main{
 @media screen and (max-width:599px) {
     .main-nav .nav-actions span{
         display: none;
+    }
+    .main-nav .nav-actions li{
+        padding-left: 0;
+    }
+    .main-nav .nav-actions .verde{
+        border-left: none;
     }
     .main-nav .nav-actions img{
         width: 33px;
@@ -165,6 +176,7 @@ main{
 .main-nav .playlist{
     flex-grow: 1;
     overflow: hidden;
+    padding-left: 20px;
 }
 
 .main-nav .playlist .ul-playlist{
@@ -222,6 +234,9 @@ main{
 }
 
 /* User */
+.main-nav .user{
+    padding-left: 20px;
+}
 .main-nav .user img{
     width: 24px;
     height: 24px;
@@ -254,6 +269,9 @@ main{
 }
 
 @media screen and (max-width:599px) {
+    .main-nav .user{
+        padding-left: 0;
+    }
     .main-nav .user span{
         display: none;
     }
@@ -263,6 +281,7 @@ main{
     .main-nav .user .download-app img{
         width: 23px;
         height: 23px;
+        margin-left: 2px;
     }
     .main-nav .user .profile img{
         width: 33px;
@@ -514,6 +533,21 @@ footer .brano .icone i{
     padding: 0 5px;
 }
 
+@media screen and (max-width:590px){
+    footer .brano{
+        padding: 0 10px;
+    }
+    footer .brano .icone{
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:545px) {
+    footer .brano .icone{
+        display: none;
+    }
+}
+
 /* Pausa */
 footer .pausa{
     padding-top: 20px;
@@ -631,6 +665,12 @@ footer .volume{
     padding-right: 20px;
 }
 
+@media screen and (max-width:590px) {
+    footer .volume{
+        padding-right: 10px;
+    }
+}
+
 /* Icone */
 footer .volume .buttons{
     display: flex;
@@ -642,6 +682,12 @@ footer .volume .buttons{
 
 footer .volume .buttons i{
     padding: 0 10px;
+}
+
+@media screen and (max-width:545px) {
+    footer .volume .buttons{
+        display: none;
+    }
 }
 
 /* Barra */
@@ -726,7 +772,7 @@ footer .volume .barra-piccola{
 
 .main-content .fa-play-circle{
     color: white;
-    font-size: 45px;
+    font-size: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -736,6 +782,7 @@ footer .volume .barra-piccola{
 
 .main-content .single-element:hover .fa-play-circle{
     display: inline-block;
+    color: white;
 }
 
 footer .barra-grande:hover .barra-piccola{
@@ -757,10 +804,3 @@ footer .barra-grande .pallino-bianco{
 footer .barra-grande:hover .pallino-bianco{
     display: inline-block;
 }
-
-/* @media screen and (max-width:599px) {
-    footer .barra-grande .pallino-bianco{
-        width: 15px;
-        height: 15px;
-    }
-} */
