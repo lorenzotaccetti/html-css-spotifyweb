@@ -265,7 +265,7 @@ main{
 
 @media screen and (max-width:599px) {
     .main-nav .user{
-        padding-left: 0;
+        padding: 0;
     }
     .main-nav .user span{
         display: none;
