@@ -157,6 +157,7 @@ main{
     }
     .main-nav .nav-actions .verde{
         border-left: none;
+        padding-left: 0;
     }
     .main-nav .nav-actions img{
         width: 33px;
